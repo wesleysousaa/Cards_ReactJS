@@ -1,0 +1,23 @@
+.add{
+    font-size: 6.7rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1.2rem;
+    float: left;
+    text-align: center;
+    border: 2px;
+    border-style: double;
+    border-color: rgb(106, 158, 54);
+    color: rgb(106, 158, 54);
+    border-radius: 5px;
+    min-height: 7.625rem;
+    min-width: 7.625rem;
+    max-height: 7.625rem;
+    background: none;
+}
+
+.add:hover{
+    cursor: pointer;
+    min-height: 8.625rem;
+    min-width: 8.625rem;
+    margin: 0.8rem;
+}

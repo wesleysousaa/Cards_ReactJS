@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+form{
+    background-color: #fdf1cc;
+    max-width: 21rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    color: beige;
+}
+
+input{
+    min-width: 20rem;
+    min-height: 3rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #987f69;
+    color: beige;
+}
+input::placeholder{
+    color: beige;
+}
+
+.enviar:hover{
+    cursor: pointer;
+}
+
+.enviar{
+    font-size: 2rem;
+}
+
+.cor{
+    max-width: 100px;
+}

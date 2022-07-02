@@ -1,0 +1,38 @@
+.card{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 1.2rem;
+    float: left;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    min-width: 11.563rem;
+    min-height: 5.875rem;
+    max-width: 11.563rem;
+}
+
+.card:hover{
+    background-color: rgb(180, 169, 155);
+    cursor: pointer;
+}
+
+.cont{
+    word-break:break-word;
+    font-size: 0.4rem;
+    color: aliceblue;
+    margin: 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: black;
+    min-height: 84px;
+    text-shadow: 2px 2px black;
+    border: 1px;
+}
+
+h2{
+    margin: auto;
+    font-size: 2rem;
+    
+}
